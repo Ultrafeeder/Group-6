@@ -30,7 +30,7 @@ nav li{
 }
 nav a{
     text-decoration: none;
-    color:white;
+    color:black;
     font-size: 1.3em;
 }
 nav ul{
@@ -195,6 +195,7 @@ nav ul{
 .icons li{
     display: inline-block;
     padding:1em;
+    color: white;
 }
 @media only screen and (min-width:961px)and (max-width:1800px){
     .icons{
@@ -223,7 +224,10 @@ nav ul{
 
 
 /* RESOURCES PAGE */
-
+img{
+    height:300px;
+    width:400px;
+}
 
 
 
