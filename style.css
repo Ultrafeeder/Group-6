@@ -267,14 +267,32 @@ main {
 
 .h-skill {
     grid-area: a;
+    text-align: center;
 }
 
 .h-counsel {
     grid-area: b;
+    text-align: center;
 }
 
 .h-aftsch {
     grid-area: c;
+    text-align: center;
+}
+
+.a-skill {
+    grid-area: d;
+    text-align: center;
+}
+
+.a-counsel {
+    grid-area: e;
+    text-align: center;
+}
+
+.a-aftsch {
+    grid-area: f;
+    text-align: center;
 }
 
 
