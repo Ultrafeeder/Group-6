@@ -258,43 +258,20 @@ main {
 }
 
 .sec-cont {
+    height: 800px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:
-        'a b c'
-        'd e f';
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(6, auto);
+    background-image: url("class.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.h-skill {
-    grid-area: a;
+.sec-cont section {
+    background-color: #414ce6;
+    height: 200px;
     text-align: center;
 }
-
-.h-counsel {
-    grid-area: b;
-    text-align: center;
-}
-
-.h-aftsch {
-    grid-area: c;
-    text-align: center;
-}
-
-.a-skill {
-    grid-area: d;
-    text-align: center;
-}
-
-.a-counsel {
-    grid-area: e;
-    text-align: center;
-}
-
-.a-aftsch {
-    grid-area: f;
-    text-align: center;
-}
-
 
 /* RESOURCES PAGE */
 img {
