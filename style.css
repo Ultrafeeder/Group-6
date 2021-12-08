@@ -308,18 +308,6 @@ textarea {
 }
 
 input[type=submit] {
-<<<<<<< HEAD
-  background-color: rgba(0, 0, 128, 0.877);
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: black;
-=======
     background-color: #04AA6D;
     color: white;
     padding: 12px 20px;
@@ -330,25 +318,14 @@ input[type=submit]:hover {
 
 input[type=submit]:hover {
     background-color: #45a049;
->>>>>>> 8e3b1b445cb39a08633ec34c3628f7692fefd8e6
 }
 #box{
 background: url("img/law.jpeg") top left repeat;
 opacity: .8;
     border: solid 8px black;
 
-<<<<<<< HEAD
-}
-.ctr{
-padding: 20px;
-margin: 20px 0;
-}
-.ctc{
-    text-align: center;
-=======
-.container {
+.container{
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
->>>>>>> 8e3b1b445cb39a08633ec34c3628f7692fefd8e6
 }
