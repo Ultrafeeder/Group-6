@@ -234,9 +234,11 @@ p {
 }
 
 /* ABOUT US PAGE */
+.h1 {
+    font-size:40px; 
+    font-family: 'Great Vibes',cursive;
 
-
-
+}
 
 
 
@@ -246,7 +248,7 @@ p {
 
 
 /* IMPACT PAGE */
-main {
+.main-impact {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -274,7 +276,7 @@ main {
 }
 
 /* RESOURCES PAGE */
-img {
+.resources {
     height: 300px;
     width: 400px;
 }
