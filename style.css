@@ -281,7 +281,26 @@ p {
     width: 400px;
 }
 
+.location-section{
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+}
 
+.rec-title{
+    text-align: -webkit-center;
+    padding: 50px;
+}
+
+.location-description{
+    font-size: 18px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.rec-main{
+    background-color: lightgray;
+}
 
 
 
