@@ -452,20 +452,10 @@ input[type=submit]:hover {
     border: solid 8px black;
 }
 
-.container {
-
-    background-color: #f2f2f2;
-    padding: 20px;
-    height: 150px;
-    width: 150px;
-}
-
 .ctc {
-
-    .ctc {
-        >>>>>>>cf33cdc382fa50c93c51cd4d4176f8314649588c text-align: center;
+     text-align: center;
     }
 
-    .ctr {
+.ctr {
         color: white;
     }
