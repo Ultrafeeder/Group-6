@@ -249,7 +249,7 @@ p {
 
 /* IMPACT PAGE */
 .bdy-impact {
-    background-image: linear-gradient(lightgray, white, lightgray);
+    background-image: linear-gradient(lightgray, gray);
 }
 
 .p-fin:link {
