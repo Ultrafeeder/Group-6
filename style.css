@@ -235,8 +235,8 @@ p {
 
 /* ABOUT US PAGE */
 .h1 {
-    font-size:40px; 
-    font-family: 'Great Vibes',cursive;
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive;
 
 }
 
@@ -248,31 +248,104 @@ p {
 
 
 /* IMPACT PAGE */
+.bdy-impact {
+    background-image: linear-gradient(lightgray, gray);
+}
+
+.p-fin:link {
+    color: cyan;
+}
+
+.p-fin:visited {
+    color: cyan;
+}
+
+.p-fin:hover {
+    color: pink;
+}
+
+.enroll:link {
+    color: cyan;
+}
+
+.enroll:visited {
+    color: cyan;
+}
+
+.enroll:hover {
+    color: pink;
+}
+
 .main-impact {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 2em;
+    background-color: #000442;
+    color: #ffffff;
+}
+
+.h-main {
+    font-weight: 2000;
+    text-shadow: 10px 10px #414ce6;
 }
 
 .a-main {
     flex-basis: 70%;
-    padding: 1.2em;
+    margin: 2em;
+    font-size: 18pt;
 }
 
 .sec-cont {
-    height: 800px;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(6, auto);
     background-image: url("class.jpeg");
     background-repeat: no-repeat;
     background-position: center;
+    justify-items: center;
 }
 
-.sec-cont section {
-    background-color: #414ce6;
-    height: 200px;
+.sec-cont h2 {
     text-align: center;
+    margin: 10px;
+    padding: 5px;
+    background-color: #000442c4;
+    color: white;
+    box-shadow: 3px 3px #414ce6;
+}
+
+.sec-cont article {
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+    background-color: #000442c4;
+    color: white;
+    box-shadow: 3px 3px #414ce6;
+}
+
+.h-skill {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.a-skill {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.h-counsel {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.a-counsel {
+    grid-area: 4 / 2 / 5 / 3;
+}
+
+.h-aftsch {
+    grid-area: 5 / 3 / 6 / 4;
+}
+
+.a-aftsch {
+    grid-area: 6 / 3 / 7 / 4;
 }
 
 /* RESOURCES PAGE */
@@ -281,44 +354,44 @@ p {
     width: 400px;
 }
 
-.location-section{
+.location-section {
     justify-content: center;
     display: flex;
     padding: 50px;
 }
 
-.rec-title{
+.rec-title {
     text-align: -webkit-center;
     padding: 50px;
 }
 
-.location-description{
+.location-description {
     font-size: 18px;
     text-align: center;
     margin-left: 30px;
 }
 
-.rec-main{
+.rec-main {
     background-color: lightgray;
 }
 
-.stat{
+.stat {
     font-size: 25px;
     padding: 1em;
     color: #eda200;
 }
 
-.rec-box{
+.rec-box {
     display: flex;
     justify-content: space-evenly;
 }
 
-.prof-img{
+.prof-img {
     height: 300px;
     width: 300px;
 }
 
-.rec-cards a{
+.rec-cards a {
     text-decoration: none;
     border: 1px solid gray;
     color: black;
@@ -327,7 +400,7 @@ p {
     margin-top: 5px;
 }
 
-.rec-sub{
+.rec-sub {
     text-align: center;
     padding: 1em;
     font-size: 30px;
@@ -343,7 +416,7 @@ body {
 
 * {
     box-sizing: border-box;
-    
+
 }
 
 input[type=text],
@@ -357,7 +430,7 @@ textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    
+
 }
 
 input[type=submit] {
@@ -370,16 +443,29 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color:green;
+    background-color: green;
 }
-#box{
-background: url("img/law.jpeg") top left repeat;
-opacity: .8;
+
+#box {
+    background: url("img/law.jpeg") top left repeat;
+    opacity: .8;
     border: solid 8px black;
 }
-.ctc{
-    text-align: center;
+
+.container {
+
+    background-color: #f2f2f2;
+    padding: 20px;
+    height: 150px;
+    width: 150px;
 }
-.ctr{
-    color: white;
-}
+
+.ctc {
+
+    .ctc {
+        >>>>>>>cf33cdc382fa50c93c51cd4d4176f8314649588c text-align: center;
+    }
+
+    .ctr {
+        color: white;
+    }
