@@ -234,12 +234,41 @@ p {
 }
 
 /* ABOUT US PAGE */
+.Pabout{
+    background:linear-gradient(50deg, red, orange);
+}
 
+.abouth2{
+    color:greenyellow;
+}
 
+.Values{
+    color: darkmagenta;
+}
 
+.Bout2{
+    color:turquoise;
+}
 
+.aboutC{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
 
+.abArticle{
+    text-align: center;
+    padding:10px;
+    margin: 0.1%;
+    margin: 1.2%;
+    background-size: cover;
+    background-position: center;
+}
 
+.articleInfo2{
+    font-weight:bold;
+    font-style:italic; 
+}
 
 
 
