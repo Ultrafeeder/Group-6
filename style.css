@@ -277,19 +277,69 @@ p {
     width: 400px;
 }
 
+.location-section{
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+}
 
+.rec-title{
+    text-align: -webkit-center;
+    padding: 50px;
+}
 
+.location-description{
+    font-size: 18px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.rec-main{
+    background-color: lightgray;
+}
+
+.stat{
+    font-size: 25px;
+    padding: 1em;
+    color: #eda200;
+}
+
+.rec-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.prof-img{
+    height: 300px;
+    width: 300px;
+}
+
+.rec-cards a{
+    text-decoration: none;
+    border: 1px solid gray;
+    color: black;
+    width: 40px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.rec-sub{
+    text-align: center;
+    padding: 1em;
+    font-size: 30px;
+}
 
 
 
 
 /* CONTACT PAGE */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Assistant', sans-serif;
 }
 
 * {
     box-sizing: border-box;
+    
 }
 
 input[type=text],
@@ -303,10 +353,11 @@ textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    
 }
 
 input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #000442;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -315,15 +366,16 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color:green;
 }
 #box{
 background: url("img/law.jpeg") top left repeat;
 opacity: .8;
     border: solid 8px black;
 }
-/* .container{
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-} */
+.ctc{
+    text-align: center;
+}
+.ctr{
+    color: white;
+}
