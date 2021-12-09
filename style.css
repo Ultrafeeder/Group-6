@@ -234,15 +234,9 @@ p {
 }
 
 /* ABOUT US PAGE */
-<<<<<<< HEAD
 .Pabout{
     background:linear-gradient(50deg, red, orange);
 }
-=======
-.h1 {
-    font-size: 40px;
-    font-family: 'Great Vibes', cursive;
->>>>>>> b77fe6e22acc1b6cb043bee8e26d325ebd86ab61
 
 .abouth2{
     color:greenyellow;
