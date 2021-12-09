@@ -289,8 +289,57 @@ p {
     width: 400px;
 }
 
+.location-section {
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+}
 
+.rec-title {
+    text-align: -webkit-center;
+    padding: 50px;
+}
 
+.location-description {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.rec-main {
+    background-color: lightgray;
+}
+
+.stat {
+    font-size: 25px;
+    padding: 1em;
+    color: #eda200;
+}
+
+.rec-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.prof-img {
+    height: 300px;
+    width: 300px;
+}
+
+.rec-cards a {
+    text-decoration: none;
+    border: 1px solid gray;
+    color: black;
+    width: 40px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.rec-sub {
+    text-align: center;
+    padding: 1em;
+    font-size: 30px;
+}
 
 
 
@@ -347,9 +396,11 @@ input[type=submit]:hover {
 }
 
 .ctc {
-    text-align: center;
-}
 
-.ctr {
-    color: white;
-}
+    .ctc {
+        >>>>>>>cf33cdc382fa50c93c51cd4d4176f8314649588c text-align: center;
+    }
+
+    .ctr {
+        color: white;
+    }
